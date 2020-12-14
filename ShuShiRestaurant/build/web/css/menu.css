@@ -1,0 +1,44 @@
+.list-of-menu{
+    display: flex;
+    flex-direction: column;
+}
+.menu-wrapper{
+    border-bottom: 3px dotted rgba(0,0,0,.2);
+    margin-bottom: 22px;
+}
+.menu-table{
+    margin-bottom: 22px;
+    width: 100%;
+    border-collapse: collapse;
+}
+.heading-row__item{
+    padding: 8px;
+    border-top: 1px solid #ddd;
+}
+.data-row__item{
+    padding: 8px;
+    border-top: 1px solid #ddd;
+}
+.align-left{
+    text-align: left;
+}
+.align-right{
+    text-align: right;
+}
+.left-side{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30.4px;
+    padding-bottom: 22px;
+}
+.col-9{width: 100%}
+
+.page-content{
+    display: flex;
+    flex-direction: row;
+}
+.alignment{
+    padding-left:20px;
+    padding-right:20px;
+}
+

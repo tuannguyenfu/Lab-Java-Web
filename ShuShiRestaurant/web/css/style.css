@@ -1,0 +1,320 @@
+body{
+    background-image: url(../images/background/wine.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: top;
+    background-color: #d5f46b;
+    font-family: Arial;
+}
+
+.site-wrapper{
+    background-color: white;
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 24px;
+    margin-top: -10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.header-wrapper{
+    background-color: #5d5956;
+    margin-top: 0;
+}
+.container{
+    padding: 0 20px;
+    height: 100%;
+}
+.title-wrapper{
+    color: white;
+    padding: 30px 0;
+    font-family: Times New Roman;
+}
+.title{
+    font-size: 47px;
+    color: #d5f46b;
+
+}
+.subtitle{
+    font-size: 22px;
+}
+.navbar{
+    height: 35px;
+    background-color: #060606;
+    margin: 0 -20px;
+}
+.navbar .container{
+    padding: 0;
+}
+.nav{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+.nav li{
+    float: left;
+    line-height: 22px;
+}
+.nav li a{
+    padding: 15px;
+    text-decoration: none;
+    line-height: 35px;  
+    color: white;
+    font-family:Arial;
+    font-size: 90%;
+}   
+
+
+/*content*/ 
+.content-wrapper{
+    display: flex;
+}
+.content-wrapper .container{
+    width: 100%;
+}
+.default-image{
+    height: 400px;
+    background-image: url(../images/sushi/sushi0.jpg);
+    width: 700px;
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+    margin-top: 22px;
+}
+.content-left{
+    float: left;
+    width: 700px;
+    margin-bottom: 22px;
+}
+.pading-50{
+    padding: 50px;
+}
+.section{
+    margin-top: 15px;
+    border-bottom: 3px dotted lightgrey;
+    font-size: 17px;
+    line-height: 22px;
+}
+.section:last-child{
+    border-bottom: none;
+}
+.section .content{
+    padding: 22px 0;
+    display: inline-block;
+    width: 100%;
+}
+.intro .content .img{
+    width: 50%;
+    height: auto;
+    margin: 3px 20px 8px 0;
+    float: left;
+}
+.content img{
+    width: 100%;    
+    border-radius: 12px;
+}
+.content-title a{
+    color: black;
+    text-decoration: none;
+}
+.content .span{
+    width: 23%;
+    float: left; 
+}
+.item a{
+    text-decoration: none;
+    color: black;
+}
+.item a:hover{
+    color: darkslategray;
+}
+.item p{
+    margin-top: 20px;
+    line-height: 8px;
+}
+.content ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.content li{
+    float: left;
+    width: 48.9%;
+    margin-left: 2.1%;
+}
+.content li:first-child{
+    margin-left: 0;
+}
+.product-tittle{
+    font-size: 23.5px;
+    font-family: Times New Roman;
+    margin-bottom: 10px;
+}
+
+.product a{
+    color: black;
+    text-decoration: none;
+}
+p{
+    text-align: justify;
+    margin-top: 0;
+    margin-bottom: 19px;
+    display: block;
+}
+.content-title{
+    font-family: georgia, palatino;
+    font-size: 24px;
+}
+.intro .signature{
+    font-family: Times New Roman;
+    font-size: 40px;
+    line-height: 60px;
+    font-style: italic;
+}
+.product-name{
+    font-size: 28px;
+    font-family: Times New Roman;
+    padding-top: 25px;
+    line-height: 33px;
+}
+.cake .cake-img{
+    width: 48%;
+    float: right;
+}
+.cake .span{
+    padding-top: 15px;
+    font-size: 130%;
+}
+.content-right{
+    float: left;
+    width: 220px;
+    margin-left: 20px;
+}
+.content-right .share-box{
+    margin-top: 37px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px;
+}
+.share-header{
+    padding: 11px 15px;
+    font-size: 22px;
+    font-family: Times New Roman;
+}
+.share-content{
+    padding: 5px 15px 11px 15px;
+    line-height: 22px;
+}
+.share-content a{
+    color: black;
+}
+
+/*footer*/
+.footer-wrapper{
+    display: flex;
+    height: auto;
+}
+.footer-wrapper .container{
+    margin: 0 20px;
+    border-top: 1px lightgrey solid;
+    width: 100%;
+    padding: 27px 0 10px 0;
+}
+.footer-wrapper .footer-info{
+    margin-bottom: 30px;
+    font-size: 13px;
+}
+.footer-info a{
+    color: black;
+}
+
+/*detail product*/
+.container-list{
+    display: block;
+    width: 100%;
+}
+.content-left ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.content-left li{
+    margin-left: 2.1%;
+}
+.container-list .content{
+    padding-bottom: 20px;
+}
+.each-product{
+    margin-top: 15px;
+    border-bottom: 3px dotted lightgrey;
+    font-size: 17px;
+    line-height: 22px;
+}
+.each-product:last-child{
+    border-bottom: none;
+}
+.each-product:first-child{
+    margin-top: 30px;
+}
+.each-product a{
+    text-decoration: none;
+    color: black;
+}
+.container-list .each-product .image{
+    height: 100%;
+    width: 25%;
+    float: left;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.page {
+    margin-top: 30px;
+    text-align: left;
+}
+.page a{
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 8px 8px 8px 8px;
+}
+
+.active{
+    color: red;
+    pointer-events: none;
+    cursor: default;
+}
+
+
+.find-image{
+    background-image: url('../images/map/map.png');
+    height: 400px;
+}
+
+.section .error{
+    font-size: 22px;
+    color: red;
+
+}
+.activeHome{
+    font-size: 30px;
+    font-weight: bold;
+}
+.activeMenu{
+    font-size: 30px;
+    font-weight: bold;
+}
+.activeInfor{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.color-red{
+    color: red;
+}
+.au{
+    color: red;
+    font-size: 20px;
+}
+
+
+
+
+

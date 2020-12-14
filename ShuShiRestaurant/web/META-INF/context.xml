@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/ShuShiRestaurant">
+    <Environment name="serverName" value="localhost" type="java.lang.String"/>
+    <Environment name="dbName" value="MySushii" type="java.lang.String"/>
+    <Environment name="portNumber" value="1433" type="java.lang.String"/>
+    <Environment name="userID" value="sa" type="java.lang.String"/>
+    <Environment name="password" value="trinhthehoan" type="java.lang.String"/>
+    <Environment name="imagePath" value="images/" type="java.lang.String"/>
+</Context>

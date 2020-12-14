@@ -1,0 +1,204 @@
+body{
+    background-image: url(../images/blur-redblack.jpg);
+    background-attachment: fixed;
+    font-family: Arial;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.site-wrapper{
+    background-color: white;
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 24px;
+    margin-top: -10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+/*content*/ 
+.content-wrapper{
+    display: flex;
+}
+.content-wrapper .container{
+    width: 100%;
+}
+.content-left{
+    float: left;
+    width: 700px;
+    margin-bottom: 22px;
+}
+.section{
+    margin-top: 15px;
+    border-bottom: 3px dotted lightgrey;
+    font-size: 17px;
+    line-height: 22px;
+}
+.section:last-child{
+    border-bottom: none;
+}
+.section .content{
+    padding: 22px 0;
+    display: inline-block;
+    width: 100%;
+}
+.intro .content .img{
+    width: 174px;
+    height: auto;
+    margin: 3px 20px 8px 0;
+    float: left;
+}
+.content img{
+    width: 100%;    
+    border-radius: 12px;
+}
+.content-title a{
+    color: black;
+    text-decoration: none;
+}
+.content .span{
+    width: 23%;
+    float: left; 
+}
+.item a{
+    text-decoration: none;
+    color: black;
+}
+.item a:hover{
+    color: darkslategray;
+}
+.item p{
+    margin-top: 20px;
+    line-height: 8px;
+}
+.content ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.content li{
+    float: left;
+    width: 48.9%;
+    margin-left: 2.1%;
+}
+.content li:first-child{
+    margin-left: 0;
+}
+.product-tittle{
+    font-size: 23.5px;
+    font-family: Times New Roman;
+    margin-bottom: 10px;
+}
+
+.product a{
+    color: black;
+    text-decoration: none;
+}
+p{
+    margin-top: 0;
+    margin-bottom: 11px;
+    display: block;
+}
+.content-title{
+    font-family: georgia, palatino;
+    font-size: 24px;
+}
+.intro .signature{
+    font-family: Times New Roman;
+    font-size: 40px;
+    line-height: 60px;
+    font-style: italic;
+}
+.product-name{
+    font-size: 28px;
+    font-family: Times New Roman;
+    padding-top: 25px;
+    line-height: 33px;
+}
+.cake .cake-img{
+    width: 48%;
+    float: right;
+}
+.cake .span{
+    padding-top: 15px;
+    font-size: 130%;
+}
+/*detail product*/
+.container-list{
+    display: block;
+    width: 100%;
+}
+.content-left ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.content-left li{
+   
+}
+.container-list .content{
+    padding-bottom: 20px;
+}
+.each-product{
+    margin-top: 15px;
+    border-bottom: 3px dotted lightgrey;
+    font-size: 17px;
+    line-height: 22px;
+}
+.each-product:last-child{
+    border-bottom: none;
+}
+.each-product:first-child{
+    margin-top: 30px;
+}
+.each-product a{
+    text-decoration: none;
+    color: black;
+}
+.container-list .each-product .image{
+    height: 100%;
+    width: 25%;
+    float: left;
+    margin-right: 20px;
+}
+.page {
+    margin-top: 30px;
+    text-align: center;
+}
+.page a{
+    color: darkred;
+    text-decoration: none;
+    border: 0.5px lightgrey solid;
+    border-radius: 5px;
+    padding: 8px 8px 8px 8px;
+}
+.active{
+    color: blue !important;
+    pointer-events: none;
+}
+.activeMenu{
+    font-size: 30px;
+    font-weight: bold;
+}
+.activeInfor{
+    font-size: 30px;
+    font-weight: bold;
+}
+.activeList{
+    font-size: 30px;
+    font-weight: bold;
+}
+.color{
+   color: red;
+}
+.map{
+    background-image: url(../images/map.PNG);
+     width: 700px;
+     height: 700px;
+     background-repeat: no-repeat;
+}
+
+
+
+
+
+
