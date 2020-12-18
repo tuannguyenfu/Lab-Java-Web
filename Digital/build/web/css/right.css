@@ -1,0 +1,44 @@
+.right
+{
+    width: 230px;
+    height: auto;
+    padding: 20px 15px 0 15px;
+}
+.newst
+{
+    width: 100%;
+    height: auto;
+}
+.title
+{
+    color: #42554e;
+    font-size: 18px;
+    font-weight: bold;  
+    padding-bottom: 10px
+}
+.searchBox
+{
+    border: dashed 1px;
+}
+.searchButton
+{
+    background-color: #fff;
+    border: none; 
+    font-weight: bold;
+    color: #848486;
+}
+.lastArticles
+{
+    padding-bottom: 20px;
+}
+.lastArticles .text
+{
+    color: #42554e;
+}
+.right .text{
+    padding-bottom: 10px;
+}
+.formSearch{
+    padding-bottom: 20px;
+}
+
